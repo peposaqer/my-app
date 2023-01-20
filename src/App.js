@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
+      <Routes basename="/my-app">
         <Route path="/" exact element={<Home />}/>
         <Route path="/About" exact element={<About />}/>
       </Routes>
