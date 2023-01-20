@@ -30,18 +30,16 @@
 .offer {
     display: flex;
     align-items: center;
-}
-
-.offer h1 {
-    font-size: 14px;
-    font-weight: 300;
-    margin: 0;
-}
-
-.offer h1 a {
-    font-size: 14px;
-    font-weight: bold;
-    color: #000;
+    h1 {
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0;
+        a {
+            font-size: 14px;
+            font-weight: bold;
+            color: #000;
+        }
+    }
 }
 
 .arrowLeft {
@@ -64,18 +62,18 @@
     margin-left: 2rem;
     text-decoration: none;
     color: #000;
+    img {
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+        margin-right: .5rem;
+    }
+    span {
+        font-size: 14px;
+        font-weight: bold;
+    }
 }
 
-.icon img {
-    width: 20px;
-    height: 20px;
-    margin-right: 0.5rem;
-}
-
-.icon span {
-    font-size: 14px;
-    font-weight: bold;
-}
 
 @media screen and (max-width: 1024px) {
     .nav-top {

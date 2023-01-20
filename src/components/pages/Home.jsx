@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Adidas from '../adidas';
 import Color from '../color';
-// import Item from '../item';
+import Item from '../item';
 import List from "../Data/item"
 import starActive from "../img/Path 368.svg"
 import star from "../img/Path 369.svg"
@@ -26,7 +26,7 @@ export class Home extends Component {
                         <>
                             <div className='row pt-5' key={index}>
                             <div className='col-md-6'>
-                                {/* <Item /> */}
+                                <Item />
                             </div>
                             <div className='col-md-6'>
                                 <div className='details'>

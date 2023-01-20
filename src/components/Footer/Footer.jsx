@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "./Footer.css";
+import "./Footer.scss";
 import Cash from "../img/Rectangle 586.png"
 import Visa from "../img/Group 1437.png"
 import Master from "../img/Group 1438.png"

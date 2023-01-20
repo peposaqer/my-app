@@ -16,6 +16,23 @@ const List = [
         XXLarge: "XX Large",
         color1: require("../img/Group 354.png"),
         color2: require("../img/Group 356.png"),
+        size: [{
+                name: require("../img/Group 333.png")
+            },
+            {
+                name: require("../img/Group 335.png")
+            },
+            {
+                name: require("../img/Group 331.png")
+            },
+            {
+                name: require("../img/Group 329.png")
+            }
+        ],
+        // size: require("../img/Group 333.png"),
+        // size: require("../img/Group 331.png"),
+        // size: require("../img/Group 335.png"),
+        // size: require("../img/Group 329.png"),
     },
 ];
 

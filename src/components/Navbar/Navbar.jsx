@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./Navbar.scss";
 import iconBar from "../img/Group 770.svg"
 import Logo from "../img/Group 769.svg"
 import iconContact from "../img/Group 756.svg"
