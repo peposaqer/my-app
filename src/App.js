@@ -7,14 +7,16 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" exact element={<Home />}/>
-        <Route path="/About" exact element={<About />}/>
-      </Routes>
-      <Footer />
-    </Router>
+      // <HashRouter basename="/">
+        <Router basename="/">
+          <Navbar />
+          <Routes>
+            <Route path="/" exact element={<Home />}/>
+            <Route path="/About" exact element={<About />}/>
+          </Routes>
+          <Footer />
+        </Router>
+      // </HashRouter>
   );
 }
 
