@@ -20,9 +20,9 @@ export class Adidas extends Component {
                             <Link to="#!" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" className="icon">
                                 <div className='position-relative d-inline'>
                                     <img src={iconCart} />
-                                    <span class="position-absolute top-0 translate-middle badge rounded-pill danger">
+                                    <span className="position-absolute top-0 translate-middle badge rounded-pill danger">
                                         1
-                                        <span class="visually-hidden">unread messages</span>
+                                        <span className="visually-hidden">unread messages</span>
                                     </span>
                                 </div>
                                 <span>Cart</span>
