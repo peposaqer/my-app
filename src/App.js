@@ -10,8 +10,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/my-app" exact element={<Home />}/>
-        <Route path="/my-app/About" exact element={<About />}/>
+        <Route path="/" exact element={<Home />}/>
+        <Route path="/About" exact element={<About />}/>
       </Routes>
       <Footer />
     </Router>
