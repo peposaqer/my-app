@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
       // <HashRouter basename="/">
-        <Router basename="/">
+        <Router basename="/my-app">
           <Navbar />
           <Routes>
             <Route path="/" exact element={<Home />}/>
